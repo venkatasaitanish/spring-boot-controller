@@ -9,12 +9,12 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>myproject</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<scm>
 		<connection>scm:git:https://github.com/venkatasaitanish/spring-boot-controller.git</connection>
 		<developerConnection>scm:git:https://github.com/venkatasaitanish/spring-boot-controller.git</developerConnection>
 		<url>https://github.com/venkatasaitanish/spring-boot-controller</url>
-		<tag>@{project.version}</tag>
+		<tag>myproject-0.0.1</tag>
 	</scm>
 	<name>myproject</name>
 	<description>Project for Spring Boot Maven Release Plugin</description>
