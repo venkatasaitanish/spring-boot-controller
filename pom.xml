@@ -11,6 +11,12 @@
 	<groupId>com.example</groupId>
 	<artifactId>myproject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<scm>
+		<connection>scm:git:https://github.com/venkatasaitanish/spring-boot-controller.git</connection>
+		<developerConnection>scm:git:https://github.com/venkatasaitanish/spring-boot-controller.git</developerConnection>
+		<url>https://github.com/venkatasaitanish/spring-boot-controller</url>
+		<tag>@{project.version}</tag>
+	</scm>
 	<name>myproject</name>
 	<description>Project for Spring Boot Maven Release Plugin</description>
 	<properties>
@@ -34,6 +40,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>3.0.1</version>
 			</plugin>
 		</plugins>
 	</build>
