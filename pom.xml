@@ -21,7 +21,7 @@
 		<connection>scm:git:https://github.com/venkatasaitanish/spring-boot-controller.git</connection>
 		<developerConnection>scm:git:https://github.com/venkatasaitanish/spring-boot-controller.git</developerConnection>
 		<url>https://github.com/venkatasaitanish/spring-boot-controller</url>
-		<tag>myproject-0.0.1</tag>
+		<tag>@{project.version}</tag>
 	</scm>
 	<name>myproject</name>
 	<description>Project for Spring Boot Maven Release Plugin</description>
