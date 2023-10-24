@@ -22,9 +22,9 @@ jobs:
         with:
           tag_name: ${{ github.run_number }}
           release_name: Release ${{ github.run_number }}
-#          body: |
-#            Changes in this Release
-#            - First Change
-#            - Second Change
+          body: |
+            Changes in this Release
+            - First Change
+            - Second Change
 #          draft: false
 #          prerelease: false
