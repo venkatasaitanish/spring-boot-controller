@@ -1,4 +1,4 @@
-name: release
+name: summary
 on: workflow_dispatch
 
 jobs:
