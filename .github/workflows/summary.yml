@@ -10,7 +10,8 @@ jobs:
       - name: Create Release
         run: |
           echo "### Artifacts List" >> $GITHUB_STEP_SUMMARY
-          echo "| -------- | ------------ |" >> $GITHUB_STEP_SUMMARY
+          echo "| Artifact | Type |" >> $GITHUB_STEP_SUMMARY
+          echo "| -------- | ---- |" >> $GITHUB_STEP_SUMMARY
           echo "| Project1 | Docker Image |" >> $GITHUB_STEP_SUMMARY
           echo "| Project2 | Docker Image |" >> $GITHUB_STEP_SUMMARY
           echo "| Library1 | Jar File |" >> $GITHUB_STEP_SUMMARY
