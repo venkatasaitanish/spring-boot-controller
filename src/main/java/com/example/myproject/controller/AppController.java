@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AppController{
     @GetMapping
     public String getHello(){
-        return "Hello";
+        return "Hello SprinBoot";
     }
 }
